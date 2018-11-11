@@ -10,6 +10,7 @@ body {
 	padding: 20px;
 	overflow: hidden;
 	text-align: center;
+
 }
 .header--logo {
 	float: left;
@@ -87,6 +88,8 @@ button span {
 	color: #999999;
 	margin-bottom: 110px;
 }
+
+
 .features__container {
 	background-color: #fff;
 }
@@ -97,12 +100,25 @@ button span {
 	max-width: 275px/*calc(1150px/3-107px)*/;
 	text-align: center;
 }
-.container {
+.container-for-img {
 	display: flex;
 	width: 100%;
 	justify-content: center;
 }
-.features__container--benefits-name {
+.features__container--semi-gradient-background {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	background-color: #5fc3ff; 
+	background-image: linear-gradient(to left, transparent 50%, #48BAFF 50%)
+}
+
+.features__container--advantages-name {
+	margin-top: 40px;
+	margin-bottom: 20px;
 	color: #2d3950;
 	font-family: Lato;
 	font-size: 22px;
@@ -114,21 +130,20 @@ button span {
 	font-size: 15px;
 	font-weight: 400;
 }
-.features__container--benefits-name {
-	margin-top: 40px;
-	margin-bottom: 20px
-}
-.features__container--subtitle {
+
+.porfolio__container li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 20px;
 
 }
-
-.features__container--semi-gradient-background {
-	display: flex;
-	width: 100px;
-	height: 100px;
-	justify-content: center;
-	align-items: center;
-	border-radius: 2px;
-	background-color: #5fc3ff; 
-	background-image: linear-gradient(to left, transparent 50%, #48BAFF 50%)
+.porfolio__container ul {
+	margin-top: 80px;
+}
+.portfolio__container--pictures {
+	margin-top: ;
+}
+.portfolio__container--pictures img {
+	width: 300px;
+	height: 200px;
 }
