@@ -143,6 +143,7 @@ button span {
 }
 .portfolio__container--pictures {
 	margin-top: ;
+
 }
 .portfolio__container--pictures img {
 	width: 300px;
@@ -150,8 +151,14 @@ button span {
 }
 
 .stay-with-us__container {
-	background: url(../img/stay-with-us-bg.jpg) no-repeat;
+	background: url(../img/stay-with-us-bg-2.jpg) no-repeat;
     background-size: cover;
+}
+.stay-with-us__container h2 {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 41px;
+	font-weight: 400
 }
 .stay-with-us__container--input__block {
 	margin: 0 auto; 
@@ -159,16 +166,26 @@ button span {
 	max-width: 560px;
 	overflow: hidden;
 	text-align: center; 
+	/*border: solid green;*/
+}
+.stay-with-us__container--input__block textarea,
+.input__block--input {
+	border-radius: 2px;
+	border: 1px solid #999999;
+	background-color: transparent;
+	color: white;
 }
 .input__block--input {
-	height: 60px;
-	width: 560px;
 	margin-bottom: 25px;
+	height: 60px;
+	width: 558px;
+	/*Width block - border*2 */
 }
 .stay-with-us__container--input__block textarea {
-	width: 560px;
-	min-height: 160px;
+	width: 552px;
+	height: 160px;
 }
+
 .checkbox__container {
 	float: left;
 	overflow: hidden;
@@ -185,4 +202,29 @@ button span {
 	margin-top: 20px;
 	width: 140px;
 	height: 45px;
+}
+/*.container{
+	float: right;
+	display: inline-block;
+}*/
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	background-color: #15a4fa;
+}
+.social-btn {
+	float: right;
+	margin-right: 210px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-btn li {
+	display: inline-block;
+	margin-right: 5px;
 }
