@@ -62,16 +62,28 @@ button {
 	border: 1px solid #15a4fa;
 	border-radius: 2px;
 	background-color: transparent;
+
+	text-align: center;
+	transition: 0.5s;
 }
-button span {
+.button-span {
 	color: #ffffff;
 	font-family: Lato;
 	font-size: 18px;
 	line-height: 47px;
+	transition: 0.5s;
+}
+
+button:hover {
+	background-color: #15a4fa;
+}
+button:hover .button-span{
+	font-size: 20px;
 }
 .title-block__container--btn {
 	margin-top: 65px;
 	margin-bottom: 180px;
+	width: 175px;
 }
 .arrow {
 	margin-bottom: 70px;
@@ -153,6 +165,36 @@ button span {
 .portfolio__container--pictures img {
 	width: 300px;
 	height: 200px;
+}
+.hover-img {
+	margin-left: -363px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 360px;
+	height: 260px;
+	border: solid green;
+	background-color: #15a4fa;
+	opacity: 0;
+	transition: 0.8s;
+}
+.hover-img figure {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	background-color: transparent;
+	transition: 0.8s;
+}
+.hover-img:hover {
+	opacity: 0.9;
+}
+.hover-img figure:hover {
+	background-color: #0060B6;
+	opacity: 1;
 }
 
 
