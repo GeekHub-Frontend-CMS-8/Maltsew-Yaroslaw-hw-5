@@ -10,7 +10,6 @@ body {
 	padding: 20px;
 	/*overflow: hidden;*/
 	text-align: center;
-	border: solid red;
 }
 .logo-container {
 	text-align: left;
@@ -165,13 +164,12 @@ button:hover {
 	height: 200px;
 }
 .hover-img {
-	margin-left: -363px;
+	margin-left: -360px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 360px;
 	height: 260px;
-	border: solid green;
 	background-color: #15a4fa;
 	opacity: 0;
 	transition: 0.8s;
@@ -247,8 +245,8 @@ button:hover {
 	height: 45px;
 	text-align: center;
 }
-input:hover {
-	border: solid white;
+input:hover, textarea:hover{
+	border: 1px solid white;
 	color: white;
 }
 
